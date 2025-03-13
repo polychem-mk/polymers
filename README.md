@@ -50,6 +50,7 @@ rmarkdown_2.29        knitr_1.49
 ├── LICENSE 
 ├── polymers.Rproj 
 ├── README.md 
+├── index.html                             # HTML report
 ├── data 
 │   ├── processed 
 │   │   └── polymers_data_processed.rds    # file with processed data
@@ -57,8 +58,6 @@ rmarkdown_2.29        knitr_1.49
 │       └── polymers_data.rds              # file with data
 ├── images 
 │   └── image.png                          # Morgan fingerprint image
-├── reports 
-│   └── index.html                         # HTML report
 └── scripts 
     ├── bibliography.bibtex                # bibliography for HTML report
     ├── citation_style.csl                 # citation styles for HTML report
