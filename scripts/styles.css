@@ -1,0 +1,74 @@
+body {
+  font-family: Helvetica;
+  font-size: 12pt;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 18pt;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 16pt;
+}
+
+h3 {
+  ont-family: Helvetica;
+  font-size: 14pt;
+}
+
+code.r {
+  font-size: 13px;
+}
+
+pre {
+  font-size: 12px
+}
+
+.function_name {
+  color: #1F45FC;
+  font-family: Monospace;
+  font-size:12px;
+  font-size: 90%
+}
+
+.data_name {
+  color: #008080;
+  font-weight: 750;
+  font-family: Monospace; 
+  font-size: 90%
+}
+
+.column_name {
+  color: #008080;
+  font-weight: 300;
+  font-family: Monospace; 
+  font-style: italic;
+  font-size: 90%
+}
+
+.value_name {
+  color: #778899;
+  font-weight: 550;
+  font-family: Monospace; 
+  font-size: 90%
+}
+
+.figure_name {
+  color:  #2c3e50;
+  font-weight: lighter;
+  font-size: 90%
+}
+
+.package_name {
+  color: #BC8F8F;
+  font-family: Monospace; 
+}
+
+.img_style {
+  float: right;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 35%
+}
