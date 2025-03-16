@@ -72,11 +72,11 @@ library(ranger)
 
 # Load functions 
 
-# Function for table visualization. Converts data frame 
-# into a gt_tbl table (gt package)
+# Table visualization. Converts data frame 
+# into a gt_tbl table (using gt package)
 source(here::here("scripts/functions/print_gt_table.R"))
 
-#  Print molecules. Using rcdk and grid packages
+# Print molecules (using rcdk package)
 source( here::here("scripts/functions/print_molecules.R"))
 
 # Colors
@@ -679,8 +679,8 @@ dendrogram <- dendrogram$upper
 # number of cases in the nodes ("x.member"), then filter only the values that 
 # correspond to leaf nodes (the "members" attribute is equal to 1). Then compare
 # with the number of cases for each cluster in the "hclust_results" table.
-n <- dendextend::get_nodes_attr(dendrogram, "members")
-x_member <- dendextend::get_nodes_attr(dendrogram, "x.member")
+n <- get_nodes_attr(dendrogram, "members")
+x_member <- get_nodes_attr(dendrogram, "x.member")
 label_dendrogram  <- data.frame(i = 1:12,
                                 branch = labels(dendrogram),
                                 x_member = x_member[which(n == 1)])
